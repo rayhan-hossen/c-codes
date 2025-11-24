@@ -1,20 +1,11 @@
 #include <stdio.h>
-
 int main() {
-    int A, B, SUM;
-
-    scanf("%d %d", &A, &B);
-
-    SUM = A + B;
-
-    printf("SUM = %d\n ", SUM);
-
+    double R, A;
+    const double PI = 3.14159;
+    scanf("%lf", &R);
+    A = PI * R * R;
+    printf("A=%.4lf\n", A);
     return 0;
-
-
-
-
-
-
-
 }
+
+

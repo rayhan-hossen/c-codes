@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-    int main(){
+int main() {
+    int A, B, PROD;
 
-    float x, y;
+    scanf("%d %d", &A, &B);
 
-    scanf("%f %f", &x, &y);
+    PROD = A * B;
 
-    printf("MEDIA =%.5f ",(x*3.5+y*7.5)/(3.5+7.5));
-
-
+    printf("PROD = %d\n", PROD);
 
     return 0;
+}
 
-
-
-
-    }
